@@ -86,3 +86,61 @@ body {
 .btn:hover {
     background-color: #701a29
 }
+
+footer{
+    background-color: #1a0b0e;
+    color: #f4f4f4;
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-info h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+    color: #d4af37;
+}
+
+.footer-links h4, 
+.footer-contact h4 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+    color: #d4af37;    
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color:#cccccc
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffffff
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #332226;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
