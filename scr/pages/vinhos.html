@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinhos - Vinharia Agnello</title>
+    <title>Vinhos - Vinheria Agnello</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/scr/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="vinhos-page">
 
     <header>
         <nav class="navbar">
-            <h1>Vinharia Agnello</h1>
+            <h1>Vinheria Agnello</h1>
             <ul class="menu">
                 <li><a href="../../index.html">Início</a></li>
                 <li><a href="historia.html">História</a></li>
                 <li><a href="vinhos.html">Vinhos</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
@@ -27,7 +28,7 @@
 
     <main class="vinhos-container">
         <div class="tipos-vinhos">
-            <h2>Conheça Nossos Vinhos</h2>
+            <h2 class="titulo-vinhos">Conheça Nossos Vinhos</h2>
 
             <details>
                 <summary>Tipos de vinhos</summary>
@@ -39,15 +40,20 @@
 
                     <details>
                         <summary>Cabernet Sauvignon</summary>
-                        <ul>
-                            <li>Região: Bordeaux, França</li>
-                            <li>Uva: Cabernet Sauvignon</li>
-                            <li>Teor Alcoólico: 13-15%</li>
-                            <li>Harmonização: Carnes vermelhas, queijos fortes</li>
-                        </ul>
-                        <form>
-                            <button type="submit" class="btn">R$ 560,69</button>
-                        </form>
+                        <div class="vinho-item">
+                            <img src="../assets/imgs/casaPerni.jpeg" alt="Vinho Cabernet Sauvignon" class="vinho-img">
+                            <div class="vinho-info">
+                                <ul>
+                                    <li>Região: Bordeaux, França</li>
+                                    <li>Uva: Cabernet Sauvignon</li>
+                                    <li>Teor Alcoólico: 13-15%</li>
+                                    <li>Harmonização: Carnes vermelhas, queijos fortes</li>
+                                </ul>
+                                <form>
+                                    <button type="submit" class="btn">R$ 560,69</button>
+                                </form>
+                            </div>
+                        </div>
                     </details>
                 </details>
 
@@ -58,18 +64,22 @@
 
                     <details>
                         <summary>Chardonnay</summary>
-                        <ul>
-                            <li>Região: Borgonha, França</li>
-                            <li>Uva: Chardonnay</li>
-                            <li>Teor Alcoólico: 12-14%</li>
-                            <li>Harmonização: Frutos do mar, aves, massas com molhos leves</li>
-                        </ul>
-                        <form>
-                            <button type="submit" class="btn">R$ 160,69</button>
-                        </form>
+                        <div class="vinho-item">
+                            <img src="../assets/imgs/williamHill.jpeg" alt="Vinho Chardonnay" class="vinho-img">
+                            <div class="vinho-info">
+                                <ul>
+                                    <li>Região: Borgonha, França</li>
+                                    <li>Uva: Chardonnay</li>
+                                    <li>Teor Alcoólico: 12-14%</li>
+                                    <li>Harmonização: Frutos do mar, aves, massas leves</li>
+                                </ul>
+                                <form>
+                                    <button type="submit" class="btn">R$ 160,69</button>
+                                </form>
+                            </div>
+                        </div>
                     </details>
                 </details>
-
 
                 <details class="suaves">
                     <summary>Suaves</summary>
@@ -78,15 +88,20 @@
 
                     <details>
                         <summary>Moscato</summary>
-                        <ul>
-                            <li>Região: Piemonte, Itália</li>
-                            <li>Uva: Moscato</li>
-                            <li>Teor Alcoólico: 5-7%</li>
-                            <li>Harmonização: Sobremesas, frutas frescas</li>
-                        </ul>
-                        <form>
-                            <button type="submit" class="btn">R$ 250,69</button>
-                        </form>
+                        <div class="vinho-item">
+                            <img src="../assets/imgs/muscador.jpeg" alt="Vinho Moscato" class="vinho-img">
+                            <div class="vinho-info">
+                                <ul>
+                                    <li>Região: Piemonte, Itália</li>
+                                    <li>Uva: Moscato</li>
+                                    <li>Teor Alcoólico: 5-7%</li>
+                                    <li>Harmonização: Sobremesas, frutas frescas</li>
+                                </ul>
+                                <form>
+                                    <button type="submit" class="btn">R$ 250,69</button>
+                                </form>
+                            </div>
+                        </div>
                     </details>
                 </details>
 
@@ -97,15 +112,20 @@
 
                     <details>
                         <summary>Prosecco</summary>
-                        <ul>
-                            <li>Região: Veneto, Itália</li>
-                            <li>Uva: Glera</li>
-                            <li>Teor Alcoólico: 11-12%</li>
-                            <li>Harmonização: Aperitivos, frutos do mar, sobremesas leves</li>
-                        </ul>
-                        <form>
-                            <button type="submit" class="btn">R$ 246,69</button>
-                        </form>
+                        <div class="vinho-item">
+                            <img src="../assets/imgs/prosecco.jpeg" alt="Vinho Prosecco" class="vinho-img">
+                            <div class="vinho-info">
+                                <ul>
+                                    <li>Região: Veneto, Itália</li>
+                                    <li>Uva: Glera</li>
+                                    <li>Teor Alcoólico: 11-12%</li>
+                                    <li>Harmonização: Aperitivos, frutos do mar</li>
+                                </ul>
+                                <form>
+                                    <button type="submit" class="btn">R$ 246,69</button>
+                                </form>
+                            </div>
+                        </div>
                     </details>
                 </details>
 
@@ -116,7 +136,7 @@
     <footer>
         <div class="footer-container">
             <div class="footer-info">
-                <h3>Vinharia Agnello</h3>
+                <h3>Vinheria Agnello</h3>
                 <p>Tradição, sofisticação e os melhores rótulos para você.</p>
                 <p>São Paulo - SP</p>
             </div>
@@ -127,7 +147,7 @@
                     <li><a href="../../index.html">Início</a></li>
                     <li><a href="historia.html">História</a></li>
                     <li><a href="vinhos.html">Vinhos</a></li>
-                    <li><a href="harmonizacao.html">Harmonização</a></li>
+                    <li><a href="dicas.html">Dicas</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
