@@ -1,62 +1,84 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="/scr/css/style.css">
+    <title>Contato - Vinharia Agnello</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/scr/css/style.css">
 </head>
 
 <body>
-   <header>
-    <nav class="navbar">
-        <h1>Vinharia Agnello</h1>
-        <ul class="menu">
-            <li>
-                <a href="../../index.html">Início</a>
-            </li>
+    <header>
+        <nav class="navbar">
+            <h1>Vinharia Agnello</h1>
+            <ul class="menu">
+                <li><a href="../../index.html">Início</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="vinhos.html">Vinhos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <li>
-                <a href="historia.html">História</a>
-            </li>
+    <main class="contact-container">
+        <h2>Encha sua caixa de entrada com alegria.</h2>
 
-            <li>
-                <a href="vinhos.html">Vinhos</a>
-            </li>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="email">E-mail para contato:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="autoriza-email" name="autoriza_email" required>
+                    <label for="autoriza-email">
+                        Ao submeter o e-mail, autoriza o tratamento dos seus dados para receber comunicações relacionadas com os nossos produtos.
+                    </label>
+                </div>
+            </div>
 
-            <li>
-                <a href="contato.html">
-                    Contato
-                </a>
-            </li>
-        </ul>
-    </nav>
-   </header>
-   <main>
- 
-    <h2>Encha sua caixa de entrada com alegria.</h2>
-   </main>
-   <footer>
-        <div class="fotter-container">
+            <div class="form-group">
+                <label for="telefone">Telefone para contato:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="autoriza-tel" name="autoriza_tel">
+                    <label for="autoriza-tel">
+                        Ao submeter o telefone, autoriza o tratamento dos seus dados para receber comunicações relacionadas com os nossos produtos.
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn">Enviar</button>  
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-container">
             <div class="footer-info">
                 <h3>Vinharia Agnello</h3>
                 <p>Tradição, sofisticação e os melhores rótulos para você.</p>
                 <p>São Paulo - SP</p>
             </div>
             
-            <div class="fotter-link">
-                <h4>Navegação</4>
+            <div class="footer-links">
+                <h4>Navegação</h4>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="scr/pages/historia.html">História</a></li>
-                    <li><a href="scr/pages/vinhos.html">Vinhos</a></li>
-                    <li><a href="scr/pages/harmonizaçao.html">Harmonização</a></li>
-                    <li><a href="scr/pages/contato.html">Contato</a></li>
+                    <li><a href="../../index.html">Início</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="vinhos.html">Vinhos</a></li>
+                    <li><a href="harmonizacao.html">Harmonização</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </div>
             
-            <div class="fotter-contact">
+            <div class="footer-contact">
                 <h4>Atendimento</h4>
                 <p>Email: vinheriaagnello@gmail.com.br</p>
                 <p>Telefone: (11) 12345-1234</p>
@@ -67,32 +89,5 @@
             <p>&copy; 2026 Vinheria Agnello. Todos os direitos reservados.</p>
         </div>
     </footer>
- <form>
-   
-    <h4>E-mail para contato:</h4>
-    <label for="email">.</label>
-    <input type="email" id="email" name="email">
- </form>
- <form>
-    <span>Ao submeter o e-mail, autoriza o tratamento dos seus dados para receber comunicações relacionados com aos nossos produtos.</span>
-    <input type="radio" name="dados" value="dados">
- </form>
- <form>
-   
-    <h4>Telefone para contato:</h4>
-    <label for="telefone">.</label>
-    <input type="tel" id="telefone" name="telefone">
- </form>
- <form>
-        <span>Ao submeter o telefone, autoriza o tratamento dos seus dados para receber comunicações relacionados com aos nossos produtos.</span>
-    <input type="radio" name="dados" value="dados">
- </form>
-
- <form>
-    <button type="submit" class="btn" >Enviar</button>  
-    <button type="reset" class="btn" >Limpar</button >
-  </form>
-
-  
 </body>
 </html>
