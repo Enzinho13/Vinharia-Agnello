@@ -88,6 +88,8 @@ body {
     background-color: #701a29
 }
 
+/* estilizaçao do rodapé */
+
 footer{
     background-color: #1a0b0e;
     color: #f4f4f4;
@@ -142,6 +144,7 @@ footer{
     color: #aaa;
 }
 
+/*estilizaçao da pagina de contato*/
 .centralizar {
     text-align:center;
     display: flex;
@@ -256,4 +259,155 @@ footer{
 
 .btn-secondary:hover {
     background-color: #5a6268;
+}
+
+/*estilizaçao da pagina de vinhos*/
+
+.tipos-vinhos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.tipos-vinhos details {
+    background-color: #1a0b0e;
+    color: #f4f4f4;
+    border: 1px solid #33141a;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tipos-vinhos summary {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    color: #d4af37;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipos-vinhos sumary::after {
+    content: '▼';
+    font-size: 0.8rem;
+    color: #d4af37;
+    transition: transform 0.3s;
+}
+
+.tipos-vinhos details[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+.tipos-vinhos details p {
+    margin-top: 10px 0;
+    color: #ccc;
+}
+
+.tipos-vinhos ul li {
+    padding: 6x 0;
+    border-bottom: 1px solid #2a1217;
+    color: e0e0e0;
+}
+
+.tipos-vinhos .btn {
+    margin-top: 10px;
+    background-color: #8f2335;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-width: bold;
+}
+
+.tipos-vinhos .btn:hover {
+    background-color: #d4af37;
+    color: #1a0b0e;
+}
+
+body.vinhos-page {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+        url("../assets/imgs/paginadoVinh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.body.vinhos-pages {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.vinhos-container {
+    flex: 1;
+    max-width: 900px;
+    width: 100%;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/*estilizaçao da pagina de historia*/
+
+body.historia-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #120507;
+}
+
+.historia-container {
+    flex: 1;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.historia-content {
+    background-color: #1a0b0e;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #33141a;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.historia-content h2 {
+    font-family: 'Cinzel', serif;
+    color: #d4af37;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #33141a;
+    padding-bottom: 15px;
+}
+
+.historia-section {
+    margin-bottom: 30px;
+}
+
+.historia-section h3 {
+    font-family: 'Cinzel', serif;
+    color: #f2dfb0;
+    font-size: 1.3r0em;
+    margin-bottom: 12px;
+}
+
+.historia-section p {
+    color: #e0e0e0;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+    text-align: justify;
 }
