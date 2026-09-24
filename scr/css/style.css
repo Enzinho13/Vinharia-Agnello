@@ -187,9 +187,8 @@ footer{
 
 .contact-container h2 {
     font-family: 'Cinzel', serif;
-    color: #3b0710;
-    font-size: 2rem;
-    margin-bottom: 30px;
+    color: #f2dfb0;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -557,3 +556,40 @@ body.dicas-page {
     border: 1px solid rgba(212, 175, 55, 0.3);
 }
 
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #33141a;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #1a0b0e;
+    color: #fff;
+    font-family: inherit;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #d4af37;
+}
+
+body.contato-page {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: #1a0b0e;
+   margin: 0;
+}
+
+.contact-container {
+    flex: 1;
+    max-width: 700px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #240e13;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
