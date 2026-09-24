@@ -516,3 +516,44 @@ body.dicas-page {
     padding-left: 12px;
     border-left: 2px solid #8f2335;
 }
+
+body.historia-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("../assets/imgs/historiaBack.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+body.dicas-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("../assets/imgs/dicasPage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.historia-content, .dica-card {
+    background-color: rgba(26, 11, 14, 14, 0.88);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
