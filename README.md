@@ -9,23 +9,13 @@ Acesse o site: [https://enzinho13.github.io/Vinharia-Agnello](https://enzinho13.
 ## Estrutura do Projeto e Páginas
 O projeto conta com 5 paginas HTML funcionais organizadas na seguinte estrutura:
 
-vinharia-agnello/
-│
-├── index.html                # Página principal com Banner Hero e vídeo embutido (video generico pegado do yt)
-├── README.md                 # Documentação do projeto
-├── src/
-│   ├── assets/
-│   │   └── imgs/             # Imagens das garrafas e adega (imagens pegas do Pinterest e editadas pelo gemini)
-│   ├── css/
-│   │   └── style.css         # Folha de estilos unificada (Flexbox, Grid e Glassmorphism)
-│   ├── js/
-│   │   └── script.js         # Validação de maioridade (localStorage) e confirmação de compra
-│   └── pages/
-│       ├── historia.html     # git rajetória e tradição da Vinheria Agnello
-│       ├── vinhos.html       # Catálogo de vinhos divididos por tipo com imagens e botão de compra
-│       ├── dicas.html        # Dicas de serviço, taças e Tabela HTML de temperaturas ideais
-│       └── contato.html      # Formulário completo com validação (Nome, E-mail, Telefone e Mensagem)
-(pedi para o chat deixar essa estrutura acima melhor visivel para o professor)
+## 📁 Páginas do Projeto
+
+| **index.html** | Página principal com o vídeo institucional e banner de destaque |
+| **src/pages/historia.html** | Trajetória, valores e história da Vinheria Agnello |
+| **src/pages/vinhos.html** | Catálogo com os rótulos, preços e botão de compra |
+| **src/pages/dicas.html** | Dicas de harmonização e tabela de temperaturas de serviço |
+| **src/pages/contato.html** | Formulário de mensagem com nome, e-mail e telefone |
 
 
 ## Tecnologias e Recursos Utilizados
