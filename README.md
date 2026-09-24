@@ -4,7 +4,7 @@
 A Vinheria Agnello é um e-commerce e portal informativo desenvolvido para apresentar o rótulos de vinhos finos, dicas de harmonização e a tradição da marca. O site foi desenvolvido em HTML5 semântico, CSS3 e JavaScript puro, contando com navegação responsiva, multimida embutida, validação de interação e design temático em tons vinho e dourado.
 
 ## Link do site Publicado (GitHub Pages)
-Acesse o site: [https://Enzinho13.github.io/Vinheria-Agnello](https://Enzinho13.github.io/Vinheria-Agnello)
+Acesse o site: [https://enzinho13.github.io/Vinharia-Agnello](https://enzinho13.github.io/Vinharia-Agnello)
 
 ## Estrutura do Projeto e Páginas
 O projeto conta com 5 paginas HTML funcionais organizadas na seguinte estrutura:
