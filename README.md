@@ -25,6 +25,8 @@ vinharia-agnello/
 │       ├── vinhos.html       # Catálogo de vinhos divididos por tipo com imagens e botão de compra
 │       ├── dicas.html        # Dicas de serviço, taças e Tabela HTML de temperaturas ideais
 │       └── contato.html      # Formulário completo com validação (Nome, E-mail, Telefone e Mensagem)
+(pedi para o chat deixar essa estrutura acima melhor visivel para o professor)
+
 
 ## Tecnologias e Recursos Utilizados
 - HTML5 Semântico: Utilização de `header`, `nav`, `main`, `footer`, `section`, `article`, `table` e `form`.
