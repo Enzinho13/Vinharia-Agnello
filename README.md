@@ -21,7 +21,7 @@ vinharia-agnello/
 │   ├── js/
 │   │   └── script.js         # Validação de maioridade (localStorage) e confirmação de compra
 │   └── pages/
-│       ├── historia.html     # Trajetória e tradição da Vinheria Agnello
+│       ├── historia.html     # git rajetória e tradição da Vinheria Agnello
 │       ├── vinhos.html       # Catálogo de vinhos divididos por tipo com imagens e botão de compra
 │       ├── dicas.html        # Dicas de serviço, taças e Tabela HTML de temperaturas ideais
 │       └── contato.html      # Formulário completo com validação (Nome, E-mail, Telefone e Mensagem)

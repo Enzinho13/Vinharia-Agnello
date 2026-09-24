@@ -720,8 +720,16 @@ tbody tr:hover {
 .hero-video {
     flex: 1;
     min-width: 300px;
-    height: 315px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.hero-iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/ 9;
     border-radius: 10px;
     border: 2px solid #d4af37;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+    box-shadow:  25px rgba(0, 0, 0, 0.7);
+    display: block; 
 }
