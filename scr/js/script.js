@@ -30,3 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+    //Codigo JS do novo pedido do professor 
