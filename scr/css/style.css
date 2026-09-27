@@ -765,7 +765,7 @@ tbody tr:hover {
     border-radius: 5px;
     display: flex;
     gap: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0,7);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
     z-index: 1000;
 }
 

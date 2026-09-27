@@ -20,7 +20,8 @@ btnEntrarAdmin.addEventListener('click', () => {
         let safraVinho = prompt("Qual é o ano da safra do vinho?");
         let quantidadeEstoque = prompt("Qual é a quantidade disponivel no estoque?");
     
-        alert("Cadrastro realizado! Veja os detalhes no console."); 
+        alert("Cadrastro realizado! Veja os detalhes no console.");
+        alert("A seguir, veja os detalhes do vinho no console."); 
     
         console.log("=== DADOS DO VINHO CADASTRADO ===");
         console.log("Nome do vinho: " + nomeVinho);
