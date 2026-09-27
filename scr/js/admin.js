@@ -5,3 +5,10 @@ const inputSenha = document.getElementById('inputSenha');
 
 btnAbrirLogin.addEventListener('click', () => {caixaLogin.classList.toggle('oculta');
 });
+
+btnEntrarAdmin.addEventListener('click', () => { const senhaDigitada = inputSenha.value;})
+
+if (senhaDigitada === "100807"){
+    caixaLogin.classList.add('oculta');
+    inputSenha.value="";
+}
