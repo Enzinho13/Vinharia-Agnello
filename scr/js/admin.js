@@ -3,12 +3,26 @@ const caixaLogin = document.getElementById('caixaLogin');
 const btnEntrarAdmin = document.getElementById('btnEntrarAdmin');
 const inputSenha = document.getElementById('inputSenha');
 
-btnAbrirLogin.addEventListener('click', () => {caixaLogin.classList.toggle('oculta');
+btnAbrirLogin.addEventListener('click', () => {
+    caixaLogin.classList.toggle('oculta');
 });
 
-btnEntrarAdmin.addEventListener('click', () => { const senhaDigitada = inputSenha.value;})
+btnEntrarAdmin.addEventListener('click', () => { const senhaDigitada = inputSenha.value; })
 
-if (senhaDigitada === "100807"){
+if (senhaDigitada === "100807") {
     caixaLogin.classList.add('oculta');
-    inputSenha.value="";
+    inputSenha.value = "";
+
+
+    let nomeVinho = prompt("Qual é o nome do vinho a ser cadastrado?");
+    let tipoVinho = prompt("qual é o tipo de vinho(Tinto, Seco, Suave, Espumante)?");
+    let safraVinho = prompt("Qual é o ano da safra do vinho?");
+    let quantidadeEstoque = prompt("Qual é a quantidade disponivel no estoque?");
+    alert("Cadrastro realizado! Veja os detalhes no console.");
+   
+
+} else {
+    alert("Acesso negado!");
+    inputSenha.value = '';
 }
+
