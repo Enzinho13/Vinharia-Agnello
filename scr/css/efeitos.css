@@ -45,3 +45,34 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
 }
+
+
+/*Estilização e Animação da tag */
+
+details > summary {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-weight: bold;
+    list-style: none;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > summary:hover {
+    background-color: #800020;
+    color: white;
+}
+
+details[open] > summary:after {
+    transform: rotate(-180deg);
+}
+
+details[open] > summary ~ * {
+    animation: deslizarSuave 0.5s ease-in-out fowards;
+}
