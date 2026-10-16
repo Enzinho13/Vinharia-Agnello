@@ -111,6 +111,27 @@ details[open] > summary ~ * {
    /* Aumenta a sombra para criar a ilusão de que o elemento está flutuando na tela */
    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 
-   /* Opcional: Destaca a borda com a cor "vinho" (bordô" da identidade visual */
+   /* Opcional: Destaca a borda com a cor "vinho" (bordô) da identidade visual */
    border-color: #800020;
+}
+
+/* Opcional: Adicionando um pseudo-elemento para dar um charme nos títulos numéricos */
+.dica-card h3{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.dica-card h3::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #800020; /* Cor da linha decorativa */
+    transition: width 0.4s ease; /* Transição para a linha crescer */
+}
+
+/* Quando passar o mouse no card,a linha decorativa abaixo do título cresce */
+.dica-card:hover h3::after{
+    width: 100%;
 }
