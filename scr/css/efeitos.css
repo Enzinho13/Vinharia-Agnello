@@ -87,3 +87,30 @@ details[open] > summary ~ * {
         transform: translateY(0);
     }
 }
+
+/* Estado incial do card */ 
+.dica-card{
+    background-color: #ffffff;
+
+    /* Fundo sólido para destacar a sombra */
+    padding : 25px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea; /* Borda sutil */
+
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Sombra base leve */
+
+    /* Garante que o movimento de subir e mudar a sombra não seja brusco */
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;    
+}
+
+.dica-card:hover {
+   /* Faz o card subir 8 pixels e aumentar o tamanho em 2% */
+   transform: translateY(-8px) scale(1.02);
+
+   /* Aumenta a sombra para criar a ilusão de que o elemento está flutuando na tela */
+   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+
+   /* Opcional: Destaca a borda com a cor "vinho" (bordô" da identidade visual */
+   border-color: #800020;
+}
